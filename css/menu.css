@@ -25,6 +25,11 @@ p {
     font-family: "Roboto", Arial, sans-serif;
 }
 
+h1 {
+    font-family: "Shrikhand", "cursive";
+}
+
+
 img {
     width: 100%;
     height: 100%;
@@ -153,11 +158,11 @@ a{
 }
 
 .card:nth-child(2) {
-    animation: 3s card forwards 1.5s;
+    animation: 0.5s card forwards 0.5s;
 }
 
 .card:nth-child(3) {
-    animation: 1.5s card forwards 2s;
+    animation: 0.5s card forwards s;
 }
 
 @keyframes card {
@@ -218,6 +223,7 @@ a{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+   color: #99e2d0;
 }
 
 .choose {

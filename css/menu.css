@@ -238,11 +238,28 @@ a{
     border-bottom-right-radius: 20px;
 }
 
+.card_container:hover .choose i {
+    animation: rotate 0.5s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .card:hover .choose {
     width: 100px;
     transition: width 0.5s ease-in-out;
 }
-
+.choose i{
+    font-size: 25px;
+    color:#fff;
+}
 i.like-bg {
     position: relative;
     color: #9356dc;

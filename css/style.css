@@ -36,6 +36,8 @@
     animation: 1s spin infinite ease-in-out;
 }
 
+/*LES KEYFRAMES*/
+
 @keyframes spin {
     to {
         transform: rotate(360deg);
@@ -294,6 +296,7 @@ footer {
     margin-top: 20px;
 }
 
+/*LES MEDIAS*/
 @media all and (min-width: 670px) {
 
     .list_icon:first-child {
